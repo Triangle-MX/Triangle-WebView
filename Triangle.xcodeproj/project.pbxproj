@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F542CE1F213285DD00D86869 /* Triangle WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Triangle WebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F542CE1F213285DD00D86869 /* Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triangle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F542CE22213285DD00D86869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F542CE24213285DD00D86869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F542CE27213285DD00D86869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F542CE29213285DE00D86869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F542CE2C213285DE00D86869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F542CE2E213285DE00D86869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F542CE33213285DE00D86869 /* Triangle WebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triangle WebViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F542CE33213285DE00D86869 /* TriangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F542CE37213285DE00D86869 /* Triangle_WebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle_WebViewTests.swift; sourceTree = "<group>"; };
 		F542CE39213285DE00D86869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F542CE3E213285DE00D86869 /* Triangle WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Triangle WebViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F542CE3E213285DE00D86869 /* TriangleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F542CE42213285DE00D86869 /* Triangle_WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle_WebViewUITests.swift; sourceTree = "<group>"; };
 		F542CE44213285DE00D86869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		F542CE20213285DD00D86869 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F542CE1F213285DD00D86869 /* Triangle WebView.app */,
-				F542CE33213285DE00D86869 /* Triangle WebViewTests.xctest */,
-				F542CE3E213285DE00D86869 /* Triangle WebViewUITests.xctest */,
+				F542CE1F213285DD00D86869 /* Triangle.app */,
+				F542CE33213285DE00D86869 /* TriangleTests.xctest */,
+				F542CE3E213285DE00D86869 /* TriangleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F542CE1E213285DD00D86869 /* Triangle WebView */ = {
+		F542CE1E213285DD00D86869 /* Triangle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F542CE47213285DE00D86869 /* Build configuration list for PBXNativeTarget "Triangle WebView" */;
+			buildConfigurationList = F542CE47213285DE00D86869 /* Build configuration list for PBXNativeTarget "Triangle" */;
 			buildPhases = (
 				F542CE1B213285DD00D86869 /* Sources */,
 				F542CE1C213285DD00D86869 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "Triangle WebView";
+			name = Triangle;
 			productName = "Triangle WebView";
-			productReference = F542CE1F213285DD00D86869 /* Triangle WebView.app */;
+			productReference = F542CE1F213285DD00D86869 /* Triangle.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F542CE32213285DE00D86869 /* Triangle WebViewTests */ = {
+		F542CE32213285DE00D86869 /* TriangleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F542CE4A213285DE00D86869 /* Build configuration list for PBXNativeTarget "Triangle WebViewTests" */;
+			buildConfigurationList = F542CE4A213285DE00D86869 /* Build configuration list for PBXNativeTarget "TriangleTests" */;
 			buildPhases = (
 				F542CE2F213285DE00D86869 /* Sources */,
 				F542CE30213285DE00D86869 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				F542CE35213285DE00D86869 /* PBXTargetDependency */,
 			);
-			name = "Triangle WebViewTests";
+			name = TriangleTests;
 			productName = "Triangle WebViewTests";
-			productReference = F542CE33213285DE00D86869 /* Triangle WebViewTests.xctest */;
+			productReference = F542CE33213285DE00D86869 /* TriangleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F542CE3D213285DE00D86869 /* Triangle WebViewUITests */ = {
+		F542CE3D213285DE00D86869 /* TriangleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F542CE4D213285DE00D86869 /* Build configuration list for PBXNativeTarget "Triangle WebViewUITests" */;
+			buildConfigurationList = F542CE4D213285DE00D86869 /* Build configuration list for PBXNativeTarget "TriangleUITests" */;
 			buildPhases = (
 				F542CE3A213285DE00D86869 /* Sources */,
 				F542CE3B213285DE00D86869 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				F542CE40213285DE00D86869 /* PBXTargetDependency */,
 			);
-			name = "Triangle WebViewUITests";
+			name = TriangleUITests;
 			productName = "Triangle WebViewUITests";
-			productReference = F542CE3E213285DE00D86869 /* Triangle WebViewUITests.xctest */;
+			productReference = F542CE3E213285DE00D86869 /* TriangleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F542CE1A213285DD00D86869 /* Build configuration list for PBXProject "Triangle WebView" */;
+			buildConfigurationList = F542CE1A213285DD00D86869 /* Build configuration list for PBXProject "Triangle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F542CE1E213285DD00D86869 /* Triangle WebView */,
-				F542CE32213285DE00D86869 /* Triangle WebViewTests */,
-				F542CE3D213285DE00D86869 /* Triangle WebViewUITests */,
+				F542CE1E213285DD00D86869 /* Triangle */,
+				F542CE32213285DE00D86869 /* TriangleTests */,
+				F542CE3D213285DE00D86869 /* TriangleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		F542CE35213285DE00D86869 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F542CE1E213285DD00D86869 /* Triangle WebView */;
+			target = F542CE1E213285DD00D86869 /* Triangle */;
 			targetProxy = F542CE34213285DE00D86869 /* PBXContainerItemProxy */;
 		};
 		F542CE40213285DE00D86869 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F542CE1E213285DD00D86869 /* Triangle WebView */;
+			target = F542CE1E213285DD00D86869 /* Triangle */;
 			targetProxy = F542CE3F213285DE00D86869 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,7 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF7F26XVL2;
 				INFOPLIST_FILE = "Triangle WebView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +450,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF7F26XVL2;
 				INFOPLIST_FILE = "Triangle WebView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,7 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangle WebView.app/Triangle WebView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangle.app/Triangle";
 			};
 			name = Debug;
 		};
@@ -496,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangle WebView.app/Triangle WebView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangle.app/Triangle";
 			};
 			name = Release;
 		};
@@ -541,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F542CE1A213285DD00D86869 /* Build configuration list for PBXProject "Triangle WebView" */ = {
+		F542CE1A213285DD00D86869 /* Build configuration list for PBXProject "Triangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F542CE45213285DE00D86869 /* Debug */,
@@ -550,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F542CE47213285DE00D86869 /* Build configuration list for PBXNativeTarget "Triangle WebView" */ = {
+		F542CE47213285DE00D86869 /* Build configuration list for PBXNativeTarget "Triangle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F542CE48213285DE00D86869 /* Debug */,
@@ -559,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F542CE4A213285DE00D86869 /* Build configuration list for PBXNativeTarget "Triangle WebViewTests" */ = {
+		F542CE4A213285DE00D86869 /* Build configuration list for PBXNativeTarget "TriangleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F542CE4B213285DE00D86869 /* Debug */,
@@ -568,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F542CE4D213285DE00D86869 /* Build configuration list for PBXNativeTarget "Triangle WebViewUITests" */ = {
+		F542CE4D213285DE00D86869 /* Build configuration list for PBXNativeTarget "TriangleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F542CE4E213285DE00D86869 /* Debug */,
