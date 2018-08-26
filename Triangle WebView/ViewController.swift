@@ -7,19 +7,15 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var webView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let url = URL(string: "https://triangle.mx/")
+        let urlRequest = URLRequest(url: url!)
+        webView.load(urlRequest)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
