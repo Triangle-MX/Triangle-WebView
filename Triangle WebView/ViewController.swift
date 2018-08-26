@@ -10,20 +10,19 @@ import UIKit
 import WebKit
 
 class ViewController: UIViewController {
-    @IBOutlet var leftEdgeRecognizer: UIScreenEdgePanGestureRecognizer!
-    @IBOutlet var rightEdgeRecognizer: UIScreenEdgePanGestureRecognizer!
     @IBOutlet weak var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
         // WebView
         let url = URL(string: "https://triangle.mx/")
         let urlRequest = URLRequest(url: url!)
         webView.load(urlRequest)
-        
-        //goBack
-        
-        //goFoward
     }
+    
 }
 
+class ViewController2: UIViewController {
+    
+}

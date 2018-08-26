@@ -22,7 +22,8 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="1" green="0.71372549019999998" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
