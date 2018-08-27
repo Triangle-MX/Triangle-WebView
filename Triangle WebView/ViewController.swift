@@ -22,7 +22,3 @@ class ViewController: UIViewController {
     }
     
 }
-
-class ViewController2: UIViewController {
-    
-}
